@@ -12,7 +12,7 @@ Yes
 Use bool swap in bubble sort to get optimized bubble sort.
 Now, Best Case Time Complexity= O(n),when array is already sorted.
 
-It is useful in computer graphics algorithms, when the whole array is sorted but just two elements are sorted and similar situations.
+It is useful in computer graphics algorithms, when the whole array is sorted but just two elements are swapped and similar situations.
 
 */
 #include <iostream>
