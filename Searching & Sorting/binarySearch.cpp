@@ -17,8 +17,8 @@ Divide & Conquer
 using namespace std;
 
 bool binarySearch(int data[],int l,int r,int key){
-	if(l<=r){															//Remember to check till left <= right
-		int mid = l + (r-l)/2;											//For taking care of overflow situation
+	if(l<=r){							//Remember to check till left <= right
+		int mid = l + (r-l)/2;			//For taking care of overflow situation
 		
 		if(key>data[mid]) return binarySearch(data,mid+1,r,key);
 		else if(key<data[mid]) return binarySearch(data,l,mid-1,key);
