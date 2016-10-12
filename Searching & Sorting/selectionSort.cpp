@@ -6,6 +6,9 @@ O(n*n)
 Space Complexity:-
 O(1)
 
+Stable:-
+No, but can be made stable if we used a data structure which supported O(1) insertion and performed insertion instead of swapping.
+
 Special note:- Good thing about selection sort is that it never makes more than O(n) swaps and can be useful where memory write is costly.
 
 */
